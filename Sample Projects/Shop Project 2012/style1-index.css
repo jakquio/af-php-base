@@ -1,0 +1,149 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.bred			{ background-color: rgb(210,50,0) ; }
+.bpurple		{ background-color: rgb(255,100,200) ; }
+.bgreen			{ background-color: #88FF00 ; }
+.byellow		{ background-color: yellow ; }
+.borange		{ background-color: orange ; }
+.bpink			{ background-color: pink ; }
+.bcyan			{ background-color: cyan ; }
+.bsilver		{ background-color: silver; }
+.bteal			{ background-color: rgb(0,170,200) ; }
+
+
+body 
+{
+	background: #404347 repeat-x;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #f7f7f7;
+}
+
+.center		{text-align: center;}
+
+div table{float:center;
+		 height: 10em;
+		 width: 30em;}
+
+table {
+	margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+	}
+	
+h1	{color: white;}
+
+
+a { color: #60C3DB; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+#wrap {
+width: 100em;
+margin: 0 auto;
+}
+
+#header {
+margin: 40px 0 50px 0;
+}
+#header h1 {
+font-size: 26px;
+font-weight: 100;
+letter-spacing: 0px;
+}
+#header h1 a {
+color: #FAFFB0;
+text-decoration: none;
+}
+#header h1 a:hover {
+color: #eee;
+text-decoration: none;
+}
+#header h2 {
+color: #999;
+font-size: 18px;
+font-weight: 100;
+}
+
+#content {
+margin-left:auto;
+margin-right:auto;
+width: 50em;
+padding: 0 10px 10px 10px;
+border-left: 1px dotted #aaa;
+border: 15em;
+text-align: center;
+}
+#content h2 {
+color: #B0FFBD;
+font-size: 20px;
+font-weight: 100;
+padding: 10px 0 5px 0;
+border-bottom: 1px dotted #aaa;
+margin-bottom: 10px;
+width: 50em;
+}
+#content h2 a {
+color: #B0FFBD;
+text-decoration: none;
+}
+#content h2 a:hover {
+color: #eee;
+}
+
+#leftmenu {
+float: left;
+width: 150px;
+padding: 0 10px 10px 0;
+text-align:center;
+}
+#leftmenu h2 {
+border-bottom: 1px dotted #aaa;
+padding: 10px 0 5px 0;
+margin-bottom: 10px;
+color: #B0FFBD;
+font-size: 16px;
+font-weight: 100;
+}
+#leftmenu ul {
+float:left;
+padding: 5px 5px 10px 0;
+width: 20em; 
+}
+
+#rightmenu {
+float: left;
+width: 250px;
+padding: 0 20px 20px 20px;
+border-left: 1px dotted #aaa;
+}
+#rightmenu h2 {
+border-bottom: 1px dotted #aaa;
+padding: 10px 0 5px 0;
+margin-bottom: 10px;
+color: #B0FFBD;
+font-size: 16px;
+font-weight: 100;
+}
+#rightmenu ul {
+list-style-type: none;
+padding: 0 0 10px 0;
+}
+
+#footer {
+margin-top: 500px;
+float: bottom;
+border-top: 1px dotted #aaa;
+font-size: 11px;
+text-align: center;
+padding: 10px 0 10px 0;
+}
+
+#footer a { 
+
+}
+#footer a:hover {
+
+}

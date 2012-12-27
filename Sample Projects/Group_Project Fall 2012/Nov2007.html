@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+	<head>
+		<title>Gallery 1</title>
+
+<div id="header" align="center">
+<h1><a href="#">Gallery 1</a></h1>
+<style type="text/css">
+body {margin: 0px; border: 0px; background-color: #000000;}
+
+
+/* This changes the elements of the border around the images */
+div#wrapper {width: 520px; height: 307px; margin-left: auto; margin-right:auto; background-color: #b5f6b0; margin-top: 125px; margin-bottom: 30px; padding: 5px; border: 1px solid #851e0d;
+}
+
+div#one, div#two, div#three, div#four, div#five, div#six {float: right; border: 1px solid #851E0D; width: 405px; height: 305px; max-width: 405px;}
+  
+div#navwrap {float: left; clear:all; width: 105px; height: 305px; margin-left: 0px; border: 1px solid #851E0D;
+}
+
+div#nav1, div#nav2, div#nav3, div#nav4, div#nav5, div#nav6 {float: left; width: 105px; height:50px; font-family: tahoma, verdana, times, sans-serif; font-size: 10px; color: #90232e; background-color: #a39ad5; border-bottom: 1px solid #851E0D;}
+
+#image-switch #two, #image-switch #three, #image-switch #four, #image-switch #five, #image-switch #six {
+display:none;
+}
+
+.legend {font-family: tahoma, verdana, times, sans-serif; font-size: 12px; color: #90232e; text-align: center;}
+ul {list-style-type: none; font-family: tahoma, verdana, times, sans-serif; font-size: 10px; color: #90232e;}
+</style>
+
+<script type="text/javascript">
+function switch1(div) {
+if (document.getElementById('one')) {
+var option=['one','two','three','four','five','six'];
+for(var i=0; i<option.length; i++) 
+{ obj=document.getElementById(option[i]);
+obj.style.display=(option[i]==div)? "block" : "none"; }
+}
+}
+//
+function switchImg(i){
+document.images["wine"].src = i;
+}
+</script>
+</head>
+
+	<body>
+<div id="wrapper">
+
+<div id="image-switch">
+
+<div id="one">
+<div class="legend">
+<img src="www/images/Nov2007/068.JPG"  height="305px" width="405px" alt="Photo 1">
+</div></div>
+
+<div id="two">
+<div class="legend">
+<img src="www/images/Nov2007/077.JPG"  height="305px" width="405px" alt="Photo 2">
+</div></div>
+
+<div id="three">
+<div class="legend">
+<img src="www/images/Nov2007/073.JPG"  height="305px" width="405px" alt="Photo 3">
+</div></div>
+
+<div id="four">
+<div class="legend">
+<img src="www/images/Nov2007/078.JPG"  height="305px" width="405px" alt="Photo 4">
+</div></div>
+
+<div id="five">
+<div class="legend">
+<img src="www/images/Nov2007/076.JPG" height="305px" width="405px" alt="Photo 5">
+</div></div>
+
+<div id="six">
+<div class="legend">
+<img src="www/images/Nov2007/288.JPG"  height="305px" width="405px" alt="Photo 6">
+</div></div>
+
+</div>
+<div id="navwrap">
+<div id="nav1"><a onmouseover="switch1('one');"><img src="www/images/Nov2007/068.JPG" height="50px" width="105px" alt="Thumb 1"><br></a></div>
+<div id="nav2"><a onmouseover="switch1('two');"><img src="www/images/Nov2007/077.JPG" height="50px" width="105px" alt="Thumb 2"><br></a></div>
+<div id="nav3"><a onmouseover="switch1('three');"><img src="www/images/Nov2007/073.JPG" height="50px" width="105px" alt="Thumb 3"><br></a></div>
+<div id="nav4"><a onmouseover="switch1('four');"><img src="www/images/Nov2007/078.JPG" height="50px" width="105px" alt="Thumb 4"><br></a></div>
+<div id="nav5"><a onmouseover="switch1('five');"><img src="www/images/Nov2007/076.JPG" height="50px" width="105px" alt="Thumb 5"><br></a></div>
+<div id="nav6"><a onmouseover="switch1('six');"><img src="www/images/Nov2007/288.JPG" height="50px" width="105px"alt="Thumb 6"><br></a></div>
+</div>
+
+<div class="clear">
+</div>
+</div>
+
+	</body>
+</html>
