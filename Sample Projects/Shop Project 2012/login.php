@@ -40,7 +40,7 @@
 	<br /><br />
 	<a href='register-form.php'>Register a New Account</a>
 	<br /><br />
-	<p>Please refer to the <a href='readme.php'>Readme</a> Page
+	<p>Please refer to the <a href='Readme.php'>Readme</a> Page
 		for details on this website.</p>
 </div>
 

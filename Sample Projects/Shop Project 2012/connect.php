@@ -2,9 +2,9 @@
 <?php
 
 $HOST = 'localhost';					// change your hostname here
-$DB_ADMIN = 'XXXXXXXXXXXX';				// your MYSQL user account
-$DB_PASS = 'XXXXXXXXXXXXX';				// your MYSQL DB password
-$DB = 'tmart_biz';						// THE Name of the included SQL DB
+$DB_ADMIN = 'admin';				// your MYSQL user account
+$DB_PASS = 'gaikoku44';				// your MYSQL DB password
+$DB = 'tmart';						// THE Name of the included SQL DB
 
 $admin = 'cem@hotmail.com';
 
